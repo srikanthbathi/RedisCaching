@@ -10,3 +10,5 @@
 redis-cli -- to start redis in command line.
 flushall -- > to delete all the keys from redis;
 keys *;
+
+unless = "#result.followers < 12000"  ---> will store only user result.followers < 12000;
