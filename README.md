@@ -12,3 +12,26 @@ flushall -- > to delete all the keys from redis;
 keys *;
 
 unless = "#result.followers < 12000"  ---> will store only user result.followers < 12000;
+
+**publish subscriber**
+
+
+HSET -- > hash data type.
+
+HSET {hashsetName} {Key} {Value}[value can be any object].
+
+HGET {hashsetName} {Key} -- will return the {Value} corresponding to the given {Key}.
+
+HGETALL {hashsetName} -- get all the key values.
+
+HLEN {hashsetName} -- > length of keyset.
+
+HKEYS {hashsetName}  --- > get all the keys from {hashSetName}.
+
+HVALS {hashsetName}  -- >  get all the value from {hashSetName}
+
+HMGET {hashsetName} {key1} {key2} ...  ->  will return all the values corresponding to the given keys.
+
+HMSET {hashsetName} {Key1} {Value1} {Key2} {Value2}{Key3} {Value3} ....
+Sets multiple hash fields to multiple values
+
