@@ -51,5 +51,13 @@ redis 127.0.0.1:6379> EXEC
 3) (integer) 1 
 
 
+
+
+
 Redis DISCARD command flushes all previously queued commands in a transaction and restores the connection state to normal.
+
+
+
+
+https://dzone.com/articles/integrate-redis-to-your-spring-project
 
